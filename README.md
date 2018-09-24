@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following to your .rubocop.yml
+
+  inherit_gem:
+    mdeering-style:
+      - rubocop/all.yml
 
 ## Development
 

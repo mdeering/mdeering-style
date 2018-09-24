@@ -1,0 +1,4 @@
+inherit_gem:
+  mdeering-style:
+    - rubocop/rspec.yml
+    - rubocop/ruby.yml

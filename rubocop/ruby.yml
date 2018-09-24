@@ -1,0 +1,13 @@
+EmptyLinesAroundBlockBody:
+  Enabled: false
+
+EmptyLinesAroundModuleBody:
+  Enabled: false
+
+LineLength:
+  # I have choosen the value of 125 as that is the width GitHub/GitLab provide
+  # before you need to do any horizontal scrolling
+  Max: 125
+
+SymbolArray:
+  Enabled: false
