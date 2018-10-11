@@ -1,6 +1,12 @@
+# Whitespace is never a bad thing
 EmptyLinesAroundBlockBody:
   Enabled: false
 
+# Whitespace is never a bad thing
+EmptyLinesAroundClassBody:
+  Enabled: false
+
+# Whitespace is never a bad thing
 EmptyLinesAroundModuleBody:
   Enabled: false
 
