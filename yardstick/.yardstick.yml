@@ -1,0 +1,6 @@
+---
+rules:
+  ApiTag::Presence:
+    enabled: false
+  ApiTag::Inclusion:
+    enabled: false

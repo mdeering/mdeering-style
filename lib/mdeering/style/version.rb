@@ -15,8 +15,6 @@ module Mdeering
       #   "mdeering-style #{Mdeering::Style::Version} is loaded"
       #
       # @return [String]
-      #
-      # @api public
       def self.to_s
         [MAJOR, MINOR, PATCH].join('.')
       end

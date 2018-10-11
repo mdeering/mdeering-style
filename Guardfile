@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'mdeering/style'
+
 # A sample Guardfile
 # More info at https://github.com/guard/guard#readme
 
@@ -61,9 +63,6 @@ guard :bundler do
   files.each { |file| watch(helper.real_path(file)) }
 end
 
-# Options to guard-yardstick
-# all_on_start: true
-# path: ['app', 'config', 'lib']
-guard :yardstick, all_on_start: true do
+guard :yardstick, config: Mdeering::Style.yardstick do
   watch(%r{^lib\/(.+)\.rb$})
 end
