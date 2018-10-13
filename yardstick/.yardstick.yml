@@ -1,6 +1,11 @@
 ---
+path: ['app/**/*.rb', 'config/**/*.rb', 'lib/**/*.rb']
 rules:
   ApiTag::Presence:
     enabled: false
   ApiTag::Inclusion:
+    enabled: false
+  ApiTag::ProtectedMethod:
+    enabled: false
+  ApiTag::PrivateMethod:
     enabled: false
