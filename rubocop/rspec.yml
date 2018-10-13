@@ -3,3 +3,8 @@ require: rubocop-rspec
 BlockComments:
   Exclude:
     - spec/spec_helper.rb
+
+# RSpec files are basicly huge blocks of blocks
+BlockLength:
+  Exclude:
+    - spec/**/*_spec.rb
